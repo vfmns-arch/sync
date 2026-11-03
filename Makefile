@@ -1,6 +1,6 @@
 
 CC = gcc
-CFLAGS = -Wall -Wextra -pthread -std=c11
+CFLAGS = -Wall -Wextra -pthread
 
 all: sync_car
 
