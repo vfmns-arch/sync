@@ -57,7 +57,7 @@ Se todos os testes forem concluídos corretamente, será exibida a mensagem:
 
 Looks good!
 
-Limpeza
+Limpeza:
 
 Para remover o executável gerado:
 
