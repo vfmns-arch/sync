@@ -1,4 +1,4 @@
-#include "sync_car.c"
+#include "sync_car.h"
 
 #include <stdlib.h>
 
@@ -14,7 +14,7 @@ void station_init(struct station *station){
 }
 
 void station_load_car(struct station *station, int count){
-  pthread_mutex_lock(&station_mutex);
+  pthread_mutex_lock(&station->mutex);
   station->car_present = 1;
   station->available_seats = count;
   station->passengers_boarded = 0;
